@@ -209,6 +209,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 					// TODO Auto-generated method stub
 					Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.moma.org"));
 					startActivity(intent);
+					dialog.dismiss();
 				}
 			});
 			
